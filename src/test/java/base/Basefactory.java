@@ -62,5 +62,11 @@ public class Basefactory {
 
     }
 
+    public static void tearDown() {
+    	
+    	driver.close();
+    	
+    }
+    
 
 }
