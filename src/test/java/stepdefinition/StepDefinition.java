@@ -9,7 +9,7 @@ import io.cucumber.java.en.When;
 import junit.framework.Assert;
 import pages.LoginPage;
 
-public class StepDefination {
+public class StepDefinition {
 
 	//WebDriver driver;
 	
