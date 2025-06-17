@@ -49,12 +49,12 @@ public class Basefactory {
     }
 
 
-    public static void propertiesLoad() throws IOException {
+    public static Properties propertiesLoad() throws IOException {
 
         props = new Properties();
         reader = new FileReader(filePath);
         props.load(reader);
-
+        return props;
     }
 
     public static WebDriver getdriver() {
